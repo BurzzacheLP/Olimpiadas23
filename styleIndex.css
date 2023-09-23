@@ -1,0 +1,33 @@
+* {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.table {
+  padding: 15px;
+  background-color: rgb(255, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+thead {
+  background-color: black;
+}
+
+tbody {
+  background-color: blue;
+  padding: 10px;
+}
+
+.active {
+  border-color: black;
+  border: 5px;
+  display: table-cell;
+  background-color: green;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=styleIndex.css.map */

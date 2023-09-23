@@ -1,0 +1,38 @@
+// Colores para debugear
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+$title-color: rgba(255, 0, 0, 255);
+
+.table {
+    padding: 15px;
+    background-color: $title-color;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+thead {
+    color: white;
+    background-color: black;
+}
+
+tbody{
+    background-color: blue;
+    
+    padding: 10px;
+}
+
+.active {
+    border-color: black ;
+    border: 5px;
+    
+    display: table-cell;
+    
+    background-color: green;
+    padding: 10px;
+}
